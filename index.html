@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My All Practice</title>
+    <!-- Favicon img -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Bootstarp min css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- All min css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Swiper bundle min css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Magnigic popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<style>
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+        padding: clamp(1rem, 5vw, 6rem);
+    }
+
+    nav>a {
+        color: rgba(255, 255, 255, 0.25);
+        font-weight: 400;
+        font-size: clamp(2rem, 6vw, 7rem);
+        text-decoration: none;
+        position: relative;
+    }
+
+    nav>a:hover {
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+
+    nav>a>span {
+        display: block;
+        border-bottom: 1px solid transparent;
+        border-top: 1px solid transparent;
+        position: relative;
+        z-index: 2;
+        padding-block: 1rem;
+    }
+
+    nav>a:hover>span {
+        border-top-color: rgb(255, 255, 255);
+        border-bottom-color: rgb(255, 255, 255);
+    }
+
+    nav>a>img {
+        width: min(40vw, 600px);
+        position: absolute;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+        transition: transform 250ms, opacity 250ms;
+        pointer-events: none;
+        -webkit-filter: brightness(0.8);
+        -o-filter: brightness(0.8);
+        -moz-filter: brightness(0.8);
+        -ms-filter: brightness(0.8);
+        filter: brightness(0.8);
+    }
+
+    nav>a:hover>img {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+</style>
+
+<body>
+
+    <!-- Header area start here -->
+
+    <!-- Header area end here -->
+
+    <main>
+        <div class="image-move-mouse pt-120 pb-120">
+            <div class="container">
+                <div class="image-move-mouse__item">
+                    <a href="#">Service Item One</a>
+                    <img class="move-image" src="assets/images/bg/1.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+
+        <nav id="nav">
+            <a href="#">
+                <span>Home</span>
+                <img src="https://www.novascotia.com/sites/default/files/2021-09/Cabot-Cliffs-17th-Tee-Box-1920x1080.jpg"
+                    alt="golf course" />
+            </a>
+
+            <a href="#">
+                <span>New</span>
+                <img src="https://images.pexels.com/photos/6573707/pexels-photo-6573707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="Close-Up Photo of Golf Clubs" />
+            </a>
+
+            <a href=" #">
+                <span>Clubs</span>
+                <img src="https://images.ctfassets.net/56u5qdsjym8c/7HcHE8NFSNflBpHozWYDdQ/16338b1b7067d193ee084bd1c95c0a39/hero-equip.png?fl=progressive&q=80"
+                    alt="Golf Clubs" />
+            </a>
+
+            <a href="#">
+                <span>Golf Balls</span>
+                <img src="https://images.unsplash.com/photo-1676012120403-42a8ae3f998e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Golf Balls
+        " />
+            </a>
+
+            <a href="#">
+                <span>Shoes</span>
+                <img src="https://www.melbournepodiatryclinic.net.au/wp-content/uploads/2022/04/FootJoy-Fuel-Womens-hero.jpeg"
+                    alt="Golf shoes" />
+            </a>
+
+            <a href="#">
+                <span>Clothing</span>
+                <img src="https://cdn.shopify.com/s/files/1/2294/8559/articles/whattoweargolfing_1_3e70aa86-af11-4b44-9a07-9609e948f0ef_1236x.jpg"
+                    alt="Golf clothing" />
+            </a>
+
+            <a href="#">
+                <span>Bags & Carts</span>
+                <img src="https://uploads.mygolfspy.com/uploads/2017/03/cart-bag-pings.jpg" alt="Golf bags" />
+            </a>
+
+            <a href="#">
+                <span>Golf Tech</span>
+                <img src="https://thegadgetflow.com/wp-content/uploads/2023/03/Coolest-golf-gadgets-and-accessories-that-will-enhance-your-game-blog-featured.jpeg"
+                    alt="Golf tech products" />
+            </a>
+
+            <a href="#">
+                <span>Accessories</span>
+                <img src="https://images.unsplash.com/photo-1677764301176-c36c9416675e?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Golf accessories" />
+            </a>
+
+            <a href="#">
+                <span>Expert Services</span>
+                <img
+                    src="https://assets-global.website-files.com/60d6794e002c46522a057656/64531e9e974c6303d42721f6_GolfBunker2023_LowRes-89.jpg" />
+            </a>
+        </nav>
+    </main>
+
+    <!-- Footer area start here -->
+
+    <!-- Footer area end here -->
+
+    <!-- Jquery 3. 7. 1 Min Js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/parallax.js"></script>
+    <!-- Bootstrap min Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Swiper bundle min Js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Counterup min Js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow min Js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Magnific popup min Js -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Nice select min Js -->
+    <script src="assets/js/nice-select.min.js"></script>
+    <!-- Isotope pkgd min Js -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- Waypoints Js -->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!-- Script Js -->
+    <script src="assets/js/script.js"></script>
+    <script>
+        // const nav = document.getElementById("nav");
+
+        //     for (const link of nav.getElementsByTagName("a")) {
+        //         link.onmousemove = (e) => {
+        //             const rect = link.getBoundingClientRect(),
+        //                 img = link.querySelector("img");
+
+        //             img.style.left = `${e.clientX - rect.left}px`;
+        //             img.style.top = `${e.clientY - rect.top}px`;
+        //         };
+        //     }
+        $(document).ready(function () {
+            $("#nav a").on("mousemove", function (e) {
+                var rect = this.getBoundingClientRect(),
+                    img = $(this).find("img");
+
+                img.css({
+                    left: e.clientX - rect.left,
+                    top: e.clientY - rect.top,
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
